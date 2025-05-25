@@ -31,39 +31,6 @@
                         <a class="nav-link" href="/contact">Contact Us</a>
                     </li>
                 </ul>
-
-                <ul class="navbar-nav">
-                    @auth
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                {{ Auth::user()->name }}
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="{{ route('dashboard') }}">Dashboard</a></li>
-                                @if(Auth::user()->isEmployer())
-                                    <li><a class="dropdown-item" href="{{ route('jobs.create') }}">Post Job</a></li>
-                                @endif
-                                @if(Auth::user()->isJobSeeker())
-                                    <li><a class="dropdown-item" href="{{ route('applications.index') }}">My Applications</a></li>
-                                @endif
-                                <li><hr class="dropdown-divider"></li>
-                                <li>
-                                    <form action="{{ route('logout') }}" method="POST" class="d-inline">
-                                        @csrf
-                                        <button class="dropdown-item" type="submit">Logout</button>
-                                    </form>
-                                </li>
-                            </ul>
-                        </li>
-                    @else
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-register ms-2" href="{{ route('register') }}">Register</a>
-                        </li>
-                    @endauth
-                </ul>
             </div>
         </div>
     </nav>
