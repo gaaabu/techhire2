@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class="btm-image">
-                <img src="./asset/abt-img.webp" name="logo" class="logo"> 
+                <img src="./asset/abt-img.webp" name="btm-image" class="btm-image"> 
             </div>
         </div>
     </section>
@@ -142,10 +142,75 @@
                 </div>
             </div>
     </div>
-
-    
     </section>
 
+    <section class="about-working">
+        <div class="about-working-contents">
+            <div class="about-working-left">
+                <div class="left-image-div">
+                    <img src="./asset/first-img.jpg" name="nvidia" class="nvidia">
+                </div>
+                <div class="right-image-div">
+                    <img src="./asset/second-img.png" name="microsoft" class="microsoft">
+                    <img src="./asset/third-img.jpg" name="apple" class="apple">
+                </div>
+            </div>
+            <div class="about-working-right">
+                <div class="working-right-text">
+                    <h1>We're Only Working With The Best</h1>
+                    <p>We partner with top-tier companies and connect them with exceptional talent to ensure quality results every step of the way.
+                         Whether you're building your resume or looking to hire the best, our platform is designed to help you succeed.
+                    </p>
+                </div>
+                <div class="working-list">
+                    <ul class="about-trait-list">
+                        <li class="about-traits">
+                            <h4><i class="fa-solid fa-crown"></i>Quality Job</h4>
+                        </li>
+                        <li class="about-traits">
+                            <h4><i class="bi bi-award"></i>Top Company</h4>
+                        </li>
+                        <li class="about-traits">
+                            <h4><i class="bi bi-building-up"></i>Career Growth</h4>
+                        </li>
+                        <li class="about-traits">
+                            <h4><i class="bi bi-star"></i>Top Talents</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-top">
+            <ul class="footer-top-text">
+                <li class="footer-text">
+                    <i class="bi bi-briefcase"></i>
+                    <ul>
+                        <li>
+                            try
+                        </li>
+                        <li>
+                            try2
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="footer-text">Company</li>
+                <li class="footer-text">try3</li>
+                <li class="footer-text">try4</li>
+            </ul>
+        </div>
+        <div class="about-footer-btm">
+            <ul class="footer-btm-left">
+
+            </ul>
+            <ul class="footer-btm-right">
+
+            </ul>
+        </div>
+    </section>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const faqQuestions = document.querySelectorAll(".faq-question");
