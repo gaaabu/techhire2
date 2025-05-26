@@ -6,7 +6,11 @@
     <title>Welcome to TechHire</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link href="{{ asset('css/welcome-styles.css') }}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
@@ -102,21 +106,22 @@
                 </div>
             </div>
         </div>
+    
     </section>
     <footer class="footer">
         <div class="container text-center">
             <div class="row">
                 <div class="col-3 microsoft">
-                    <p class="footer-text">Microsoft</p>
+                    <p class="footer-text"><i class="bi bi-microsoft"></i>Microsoft</p>
                 </div>
                 <div class="col-3 nvidia">
-                    <p class="footer-text">NVidia</p>
+                    <p class="footer-text"><i class="bi bi-nvidia"></i>NVidia</p>
                 </div>
                 <div class="col-3 apple">
-                    <p class="footer-text">Apple</p>
+                    <p class="footer-text"><i class="bi bi-apple"></i>Apple</p>
                 </div>
                 <div class="col-3 amazon">
-                    <p class="footer-text">Amazon</p>
+                    <p class="footer-text"><i class="bi bi-amazon"></i>Amazon</p>
                 </div>
             </div>
         </div>
