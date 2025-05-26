@@ -55,7 +55,7 @@ Route::get('/about', function (){
 });
 
 Route::get('/contact', function (){
-    return view('about');
+    return view('contact');
 });
 // Public job show route - MOVED TO THE END
 Route::get('/jobs/{job}', [JobPostController::class, 'show'])->name('jobs.show');
