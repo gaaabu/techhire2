@@ -120,7 +120,7 @@
         </div>
     </section>
 
-    <section class="about-faq">
+    <section class="about-faq" id="about-faq">
         <div class="faq-main-section">
             <h1>Frequently Asked Questions</h1>
             <div class="faq-card">
@@ -144,7 +144,7 @@
     </div>
     </section>
 
-    <section class="about-working">
+    <section class="about-working" id="about-working">
         <div class="about-working-contents">
             <div class="about-working-left">
                 <div class="left-image-div">
@@ -182,35 +182,54 @@
         </div>
     </section>
 
-    <section class="footer">
-        <div class="footer-top">
-            <ul class="footer-top-text">
-                <li class="footer-text">
-                    <i class="bi bi-briefcase"></i>
-                    <ul>
-                        <li>
-                            try
-                        </li>
-                        <li>
-                            try2
-                        </li>
-                    </ul>
-
+    <section class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+            
+            <div class="col-md-3">
+                <h5>Jobs</h5>
+                <ul class="list-unstyled">
+                <li>We're always looking for passionate, talented individuals to join our team. Explore open positions and take the next
+                    step in your career with us.
                 </li>
-                <li class="footer-text">Company</li>
-                <li class="footer-text">try3</li>
-                <li class="footer-text">try4</li>
-            </ul>
-        </div>
-        <div class="about-footer-btm">
-            <ul class="footer-btm-left">
+                </ul>
+            </div>
 
-            </ul>
-            <ul class="footer-btm-right">
+            <div class="col-md-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                <li><a href="#" class="text-white">About</li>
+                <li><a href="/contact" class="text-white">Contact Us</a></li>
+                <li><a href="/team" class="text-white">Our Team</a></li>
+                <li><a href="#about-working" class="text-white">Partners</a></li>
+                </ul>
+            </div>
 
-            </ul>
+            <div class="col-md-3">
+                <h5>Job Categories</h5>
+                <ul class="list-unstyled">
+                <li>Software Development</li>
+                <li>Web Development</li>
+                <li>Mobile Development</li>
+                <li>Data Science & AI/ML</li>
+
+
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Newsletter</h5>
+                <form>
+                <input type="email" class="form-control mb-2" placeholder="Your email">
+                <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                </form>
+            </div>
+
+            </div>
         </div>
     </section>
+
+
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const faqQuestions = document.querySelectorAll(".faq-question");
